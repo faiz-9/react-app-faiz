@@ -1,6 +1,5 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-let imgg = "https://source.unsplash.com/collection/190720/800x600";
 const Common = (props) => {
   return (
     <>

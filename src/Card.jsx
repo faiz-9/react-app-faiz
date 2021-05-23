@@ -1,6 +1,5 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-let imgg = "https://source.unsplash.com/collection/190728/800x600";
 
 const Card = (props) => {
   return (
@@ -14,7 +13,7 @@ const Card = (props) => {
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
             </p>
-            <NavLink to="" className="btn btn-primary">
+            <NavLink to="/" className="btn btn-primary">
               Go somewhere
             </NavLink>
           </div>
